@@ -2747,3 +2747,11 @@
   description:
     - "Update SGLang image from v0.5.9-rocm700-mi30x to v0.5.12-rocm700-mi30x"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1425
+
+- config-keys:
+    - glm5-fp8-b300-sglang
+    - glm5-fp8-b300-sglang-mtp
+  description:
+    - "Update SGLang image from v0.5.11-cu130 to v0.5.12-cu130"
+    - "Disable JIT DeepGemm (SGL_ENABLE_JIT_DEEPGEMM=0) to bypass v0.5.12 DeepGemm TMA-descriptor regression on B300 — see sgl-project/sglang#25551"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1421
