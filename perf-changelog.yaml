@@ -3305,3 +3305,9 @@
   description:
     - "Update vLLM image from v0.21.0 to v0.22.0"
   pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1604
+
+- config-keys:
+    - kimik2.5-int4-b200-vllm
+  description:
+    - "Update vLLM image from v0.21.0 to v0.22.0"
+  pr-link: https://github.com/SemiAnalysisAI/InferenceX/pull/1598
